@@ -1,0 +1,10 @@
+^C:\USERS\19254\DOCUMENTS\LEARNING\COLLEGE\CS 20\WEEK-2-MON-LAB-TIMOFEY-GUMENNYY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/19254/Documents/Learning/College/CS 20/week-2-mon-lab-Timofey-Gumennyy" "-BC:/Users/19254/Documents/Learning/College/CS 20/week-2-mon-lab-Timofey-Gumennyy/build" --check-stamp-file "C:/Users/19254/Documents/Learning/College/CS 20/week-2-mon-lab-Timofey-Gumennyy/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

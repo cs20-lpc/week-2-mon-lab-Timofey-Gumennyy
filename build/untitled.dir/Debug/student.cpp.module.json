@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "untitled.dir\\Debug\\Student.obj",
+            "outputs": [
+                "C:\\Users\\19254\\Documents\\Learning\\College\\CS 20\\week-2-mon-lab-Timofey-Gumennyy\\build\\untitled.dir\\Debug\\vc143.pdb",
+                "untitled.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

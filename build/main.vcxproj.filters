@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\19254\Documents\Learning\College\CS 20\week-2-mon-lab-Timofey-Gumennyy\lab-1-part-b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\19254\Documents\Learning\College\CS 20\week-2-mon-lab-Timofey-Gumennyy\Student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\19254\Documents\Learning\College\CS 20\week-2-mon-lab-Timofey-Gumennyy\Student.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\19254\Documents\Learning\College\CS 20\week-2-mon-lab-Timofey-Gumennyy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9D591322-4CA3-3081-B073-E3B08EBF958A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10F88E16-0A05-3BD8-940B-6ABAF138702A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
