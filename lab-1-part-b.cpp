@@ -61,12 +61,10 @@ void getInput(Student objArray[], const int SIZE) {
 
     // for each student
     for (int i = 0; i < SIZE; i++) {
-        // prompt and store the name of the current student
-        cout << "Enter the name for student #" << i + 1 << ": ";
+        // read the name of the current student (no prompt)
         getline(cin, s);
 
-        // prompt and store for the age of the current student
-        cout << "Enter the age for student #" << i + 1 << ": ";
+        // read the age of the current student (no prompt)
         cin >> t;
 
         // need to ignore the newline for the next iteration
