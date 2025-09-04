@@ -13,12 +13,12 @@ std::string Student::getName() const
 
 Student::Student()
 {
-    // Constructor - no output for test compatibility
+    std::cout << "Student object created!\n";
 }
 
 Student::~Student()
 {
-    // Destructor - no output for test compatibility
+    std::cout << "Student object destroyed!\n";
 }
 
 void Student::setName(std::string name)
